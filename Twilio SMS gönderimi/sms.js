@@ -1,4 +1,4 @@
-const { accountSid, authToken, twilioNumber, myNumber } = require('./config')
+const { accountSid, authToken, twilioNumber, myNumber } = require('./config');
 
 const client = require('twilio')(accountSid, authToken);
 
